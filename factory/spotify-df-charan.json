@@ -1,0 +1,9 @@
+{
+	"name": "spotify-df-charan",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "26f1dbb6-8ac5-44f2-82c7-a33af113e967",
+		"tenantId": "91a87d1b-b1ec-4bdd-a138-24882ba46286"
+	}
+}
