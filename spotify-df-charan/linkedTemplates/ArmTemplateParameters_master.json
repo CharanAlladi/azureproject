@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "spotify-df-charan"
+		},
+		"adls_spotify_accountKey": {
+			"value": ""
+		},
+		"azure_sql_spotify_password": {
+			"value": ""
+		},
+		"adls_spotify_properties_typeProperties_url": {
+			"value": "https://spotifydatalakeazure.dfs.core.windows.net/"
+		},
+		"azure_sql_spotify_properties_typeProperties_server": {
+			"value": "spotifyproject-server.database.windows.net"
+		},
+		"azure_sql_spotify_properties_typeProperties_database": {
+			"value": "spotifydbcharan"
+		},
+		"azure_sql_spotify_properties_typeProperties_userName": {
+			"value": "admincharan"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
